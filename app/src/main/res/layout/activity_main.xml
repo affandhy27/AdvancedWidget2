@@ -11,31 +11,25 @@
     tools:context="id.sch.smktelkom_mlg.learn.advancedwidget2.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="NAMA"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:text="NAMA" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextNama"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="265dp"
+        android:id="@+id/buttonProses"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="OK" />
+        android:text="PROSES" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewHasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         tools:text="Hasil" />
 </LinearLayout>
