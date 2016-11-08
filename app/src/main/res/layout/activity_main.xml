@@ -11,7 +11,6 @@
     tools:context="id.sch.smktelkom_mlg.learn.advancedwidget2.MainActivity">
 
     <TextView
-        android:id="@+id/textViewNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NAMA" />

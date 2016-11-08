@@ -12,19 +12,18 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.editTextNama)
-    public void doProcess
-    @BindView(R.id.textViewHasil)
     EditText etNama;
-    @BindColor(R.color.colorAccent)
+    @BindView(R.id.textViewHasil)
     TextView tvHasil;
+    @BindColor(R.color.colorAccent)
     int colorAccent;
 
     @OnClick(R.id.buttonProses)
-
     {
 
         tvHasil.setText("Nama Anda: " + etNama.getText());
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
