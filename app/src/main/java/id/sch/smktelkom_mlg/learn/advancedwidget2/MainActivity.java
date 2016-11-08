@@ -18,12 +18,6 @@ public class MainActivity extends AppCompatActivity {
     @BindColor(R.color.colorAccent)
     int colorAccent;
 
-    @OnClick(R.id.buttonProses)
-    {
-
-        tvHasil.setText("Nama Anda: " + etNama.getText());
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         tvHasil.setTextColor(colorAccent);
+    }
+
+    @OnClick(R.id.buttonProses)
+    public void doProcess() {
+
+        tvHasil.setText("Nama Anda: " + etNama.getText());
     }
 }
